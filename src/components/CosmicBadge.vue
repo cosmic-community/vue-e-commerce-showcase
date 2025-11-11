@@ -1,7 +1,7 @@
 <template>
   <a
     v-if="isVisible"
-    :href="`https://www.cosmicjs.com?utm_source=bucket_${bucketSlug}&utm_medium=referral&utm_campaign=app_badge&utm_content=built_with_cosmic`"
+    :href="`https://www.cosmicjs.com?utm_source=bucket_${props.bucketSlug}&utm_medium=referral&utm_campaign=app_badge&utm_content=built_with_cosmic`"
     target="_blank"
     rel="noopener noreferrer"
     class="fixed bottom-5 right-5 flex items-center gap-2 text-gray-800 text-sm font-medium no-underline transition-colors duration-200 z-50"
